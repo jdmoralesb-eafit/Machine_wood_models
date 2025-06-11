@@ -1,0 +1,9 @@
+Clase                     Precisión  Recall     F1-Score   Support   
+-----------------------------------------------------------------
+Tropical dry forest       0.94       0.91       0.93       360       
+Tropical humid forest     0.78       0.92       0.84       165       
+Tropical montane          0.00       0.00       0.00       17        
+
+Accuracy:                 0.88      
+Macro avg                 0.57       0.61       0.59       542       
+Weighted avg              0.86       0.88       0.87       542       

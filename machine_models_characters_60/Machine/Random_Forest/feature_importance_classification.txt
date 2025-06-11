@@ -1,0 +1,12 @@
+Mean_tangential_diameter_of_vessel_lumina: 0.21543130086048767
+Rays_cellular_composition: 0.18356032181180812
+Vessel_arangement: 0.14069375945348464
+Ray_width: 0.1024562007253631
+Type_of_parenchyma_banding: 0.0772765350964055
+Fibre_wall_thickness: 0.0725010559244032
+Vessel_porosity: 0.046389465637681065
+Parenchyma_Paratracheal: 0.04262482239516609
+Growth_Rings: 0.03791107589820525
+Septa_in_fibers: 0.031302280207767305
+Perforation_plates: 0.026987000214611076
+Intervessel_pits_arregement: 0.02286618177461694

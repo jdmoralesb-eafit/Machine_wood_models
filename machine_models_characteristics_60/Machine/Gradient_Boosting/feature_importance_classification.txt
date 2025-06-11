@@ -1,0 +1,153 @@
+72MH - 900-1600 ¬µm: 0.4939807392386764
+73MH - >= 1600 ¬µm: 0.11469573071872127
+71MH - <= 900 ¬µm: 0.044526706463873036
+1 - Growth ring boundaries distinct: 0.031111244352542894
+7 - Vessels in diagonal and / or radial pattern: 0.030543725161634696
+23MH - Shape of alternate pits polygonal: 0.017581615527078442
+41 - 50 - 100 ¬µm: 0.011385087477893265
+302FH - Rays heterocellular: 0.00966925022898713
+40 - <= 50 ¬µm: 0.009520824868298186
+91MH - Two cells per parenchyma strand: 0.009046956931466201
+108 - Body ray cells procumbent with over 4 rows of upright and / or square marginal cells: 0.008724842590951512
+136 - Prismatic crystals present: 0.006870125993414875
+104 - All ray cells procumbent: 0.006592282292182799
+42 - 100 - 200 ¬µm: 0.006304283107623394
+75 - Axial parenchyma absent or extremely rare: 0.006030649701147051
+97 - Ray width 1 to 3 cells: 0.005943079654170477
+10 - Vessels in radial multiples of 4 or more common: 0.005347946012542228
+79 - Axial parenchyma vasicentric: 0.0053085707278852255
+105 - All ray cells upright and / or square: 0.005209074611509182
+130 - Radial canals: 0.00497047711387461
+37MH - Helical thickenings throughout body of vessel element: 0.004937842977397619
+46 - <= 5 vessels per square millimetre: 0.004924395007623398
+60 - Vascular / vasicentric tracheids present: 0.004883866010731363
+49 - 40 - 100 vessels per square millimetre: 0.004825264559749828
+124 - Oil and / or mucilage cells associated with ray parenchyma: 0.0044578121695576
+43 - >= 200 ¬µm: 0.004284430455849935
+47 - 5 - 20 vessels per square millimetre: 0.003996376162827123
+76 - Axial parenchyma diffuse: 0.003969066506312139
+61 - Fibres with simple to minutely bordered pits: 0.003956763721626641
+70MH - Fibres very thick-walled: 0.0039310431981921705
+84 - Axial parenchyma unilateral paratracheal: 0.0038821738529842284
+119MH - Low rays storied, high rays non-storied.: 0.003753292399856204
+90MH - Fusiform parenchyma cells: 0.0034684878962692907
+89 - Axial parenchyma in marginal or in seemingly marginal bands: 0.003388784583029148
+4 - Wood semi-ring-porous: 0.0031884999770276203
+92MH - Four (3-4) cells per parenchyma strand: 0.003125862948551864
+6 - Vessels in tangential bands: 0.002937304663124385
+13 - Simple perforation plates: 0.002901341799266408
+62 - Fibres with distinctly bordered pits: 0.0027932658950675306
+121MH - Fibres storied: 0.002745197125203894
+11 - Vessel clusters common: 0.0027244856917875123
+2 - Growth ring boundaries indistinct or absent: 0.0025657758975723265
+112MH - Perforated ray cells: 0.00256343062566456
+98 - Larger rays commonly 4 - to 10 seriate: 0.0025265070754855574
+26MH - Medium - 7 - 10 ¬µm: 0.0024854387926355062
+107 - Body ray cells procumbent with mostly 2-4 rows of upright and / or square marginal cells: 0.0024690666360705953
+50 - >= 100 vessels per square millimetre: 0.0024311422823425815
+19MH - Reticulate, foraminate, and / or other types of multiple perforation plates: 0.0022677098224668864
+122MH - Rays and / or axial elements irregularly storied: 0.0022347081061297788
+12MH - Solitary vessel outline angular: 0.0021974498695817852
+29MH - Vestured pits: 0.002097361955147788
+5 - Wood diffuse-porous: 0.0020609916684931786
+80 - Axial parenchyma aliform: 0.0020205510155700403
+110 - Sheath cells: 0.002013929008144121
+64MH - Helical thickenings in ground tissue fibres: 0.0019473878445388387
+87MH - Axial parenchyma reticulate: 0.0018749001295434344
+22 - Intervessel pits alternate: 0.0018186498085559055
+48 - 20 - 40 vessels per square millimetre: 0.0016518206941056614
+146MH - Druses in axial parenchyma cells: 0.0016386525169091234
+161MH - Silica bodies in axial parenchyma cells: 0.001638375533424542
+100 - Rays with multiseriate portion(s) as wide as uniseriate portions: 0.0016279275244497694
+65 - Septate fibres present: 0.0016086635323779392
+145MH - Druses in ray parenchyma cells: 0.0015557478140039935
+139MH - Prismatic crystals in radial alignment in procumbent ray cells: 0.0014973522759569638
+99 - Larger rays commonly > 10-seriate: 0.0014128350973880797
+27 - Large - >= 10 ¬µm: 0.0013857592616559398
+81MH - Axial parenchyma lozenge-aliform: 0.0013107660996047768
+120 - Axial parenchyma and / or vessel elements storied: 0.0012808549097263141
+96 - Rays exclusively uniseriate: 0.0012688412095855812
+25MH - Small - 4 - 7 ¬µm: 0.0012571654152067858
+128MH - Axial canals in short tangential lines: 0.0012105679039040303
+63MH - Fibre pits common in both radial and tangential walls: 0.00119604326772701
+109MH - Rays with procumbent, square and upright cells mixed throughout the ray: 0.0011523614533744898
+142 - Prismatic crystals in chambered axial parenchyma cells: 0.001103345251892627
+82MH - Axial parenchyma winged-aliform: 0.0010906099814915813
+132MH - Laticifers or tanniniferous tubes: 0.0010709244745676606
+160MH - Silica bodies in ray cells: 0.0010299391186434062
+85 - Axial parenchyma bands more than three cells wide: 0.0010261833433444733
+78 - Axial parenchyma scanty paratracheal: 0.0010193612748365926
+66MH - Non-septate fibres present: 0.0010162241180802377
+68MH - Fibres very thin-walled: 0.000988256354240437
+58MH - Gums and other deposits in heartwood vessels: 0.0009880547089480515
+8 - Vessels in dendritic pattern: 0.0009801300656366535
+135MH - Other cambial variants: 0.0009588387629628825
+16 - Scalariform perforation plates with 10 - 20 bars: 0.0009222015758741279
+106 - Body ray cells procumbent with one row of upright and / or square marginal cells: 0.0008810751935827124
+93MH - Eight (5-8) cells per parenchyma strand: 0.0008531414478562014
+69MH - Fibres thin- to thick-walled: 0.0008284842950749501
+94MH - Over eight cells per parenchyma strand: 0.0007836737293815503
+156 - Crystals in enlarged cells: 0.00077958043468752
+150MH - Acicular crystals: 0.0007511281405359022
+77 - Axial parenchyma diffuse-in-aggregates: 0.0006767875039776335
+155MH - Two distinct sizes of crystals per cell or chamber: 0.0006513062699875835
+86 - Axial parenchyma in narrow bands or lines up to three cells wide: 0.0006235095210211612
+3 - Wood ring-porous: 0.0005978639275535537
+118MH - All rays storied: 0.0005636783925398387
+134MH - Included phloem, diffuse: 0.0005280959171860959
+141 - Prismatic crystals in non-chambered axial parenchyma cells: 0.0005109139664804447
+24 - Minute - <= 4 ¬µm: 0.0005093387910690953
+140MH - Prismatic crystals in chambered upright and / or square ray cells: 0.0004660236613362338
+67MH - Parenchyma-like fibre bands alternating with ordinary fibres: 0.0004261009101246604
+143MH - Prismatic crystals in fibres: 0.00040539901978424984
+138 - Prismatic crystals in procumbent ray cells: 0.00039355298687215114
+20 - Intervessel pits scalariform: 0.0003763899212290568
+21 - Intervessel pits opposite: 0.00034182042092228623
+127MH - Axial canals in long tangential lines: 0.0003277962986729235
+151MH - Styloids and / or elongate crystals: 0.00032175048295552934
+56 - Tyloses common: 0.0003165096438566634
+137 - Prismatic crystals in upright and / or square ray cells: 0.0003134523245925351
+83 - Axial parenchyma confluent: 0.0002953070862552667
+9 - Vessels exclusively solitary (90% or more): 0.00028840242481243143
+38MH - Helical thickenings only in vessel element tails: 0.00028708819895430015
+144MH - Druses present: 0.00026664031802669423
+17 - Scalariform perforation plates with 20 - 40 bars: 0.00026574412210950984
+153MH - Crystal sand: 0.00026086422298677274
+131 - Intercellular canals of traumatic origin: 0.000242924472410934
+14 - Scalariform perforation plates: 0.000240046004504496
+149MH - Raphides: 0.00023097130422069538
+113MH - Disjunctive ray parenchyma cell walls: 0.0002291762426310718
+159MH - Silica bodies present: 0.00022286153618336532
+129MH - Axial canals diffuse: 0.00021696291586238185
+88MH - Axial parenchyma scalariform: 0.00017682393938903254
+152MH - Crystals of other shapes (mostly small): 0.0001563547675114434
+18 - Scalariform perforation plates with >= 40 bars: 0.00012057681129296908
+133MH - Included phloem, concentric: 0.00010693074070812702
+45MH - Vessels of two distinct diameter classes, wood not ring-porous: 7.301020572638571e-05
+125 - Oil and / or mucilage cells associated with axial parenchyma: 5.8517465582518694e-05
+39MH - Helical thickenings only in narrower vessel elements: 4.746521718004693e-05
+162MH - Silica bodies in fibres: 4.3437009842787844e-05
+117MH - Wood rayless: 3.488085186355184e-05
+111 - Tile cells: 6.0664862931887e-06
+15 - Scalariform perforation plates with <= 10 bars: 0.0
+101 - Aggregate rays: 0.0
+57MH - Tyloses sclerotic: 0.0
+103 - Rays of two distinct sizes: 0.0
+95MH - Unlignified parenchyma: 0.0
+59MH - Wood vesselless: 0.0
+126 - Oil and / or mucilage cells present among fibres: 0.0
+154MH - More than one crystal of about the same size per cell or chamber: 0.0
+147MH - Druses in fibres: 0.0
+148MH - Druses in chambered cells: 0.0
+157MH - Crystals in tyloses: 0.0
+158MH - Cystoliths: 0.0
+213MH - Ethanol extract basically yellow or shades of yellow: 0.0
+163MH - Vitreous silica: 0.0
+300FH - Vessel-ray pits with much reduced borders to apparently simple: 0.0
+301FH - Banded: 0.0
+303FH - Rays storied: 0.0
+304FH - Oil / mucilage cells present: 0.0
+305FH - Axial canals, normal: 0.0
+306FH - Included phloem: 0.0
+307FH - In ray cells: 0.0
+308FH - In axial parenchyma cells: 0.0

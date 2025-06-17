@@ -72,10 +72,13 @@ To apply the trained models on new data, use the script use_trained_models.py in
    
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
-Install Python dependencies (requires Python 3.8 or later):
+
+2. Install Python dependencies (requires Python 3.8 or later):
 
 bash
 pip install -r requirements.txt
+
+
 Usage
 Use the script use_trained_models.py in the root folder to make predictions:
 

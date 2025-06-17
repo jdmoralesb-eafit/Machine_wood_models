@@ -70,8 +70,8 @@ To apply the trained models on new data, use the script use_trained_models.py in
 ### Installation
 1. Clone this repository:
    
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/jdmoralesb-eafit/Machine_wood_models.git
+cd Machine_wood_models
 
 2. Install Python dependencies (requires Python 3.8 or later):
 

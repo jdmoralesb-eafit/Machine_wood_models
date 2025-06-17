@@ -129,7 +129,7 @@ def train_and_evaluate_classification_models(X_train, X_test, y_train, y_test, l
 def main():
 
     try:
-        df = pd.read_csv("Modelos_Audebert_4_etiquetas_sin_densidad_60/insidewood_con_biomas_final_60.csv", 
+        df = pd.read_csv("Modelos_Audebert_4_etiquetas_sin_densidad_60/insidewood_with_biomes_final_60.csv", 
                         sep=';', 
                         encoding='utf-8')
     except Exception as e:

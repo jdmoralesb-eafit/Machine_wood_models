@@ -130,7 +130,7 @@ def main():
 
     try:
 
-        df = pd.read_csv("obtener_biomas_Audebert/tropical_con_biomas_final_v2.csv")
+        df = pd.read_csv("obtener_biomas_Audebert/tropical_with_biomes_final_v2.csv")
     except Exception as e:
         print(f"Error with the input archive: {e}")
         return

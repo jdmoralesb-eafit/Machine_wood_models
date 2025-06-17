@@ -130,7 +130,7 @@ def main():
     
     try:
         
-        df = pd.read_csv("obtener_biomas_Audebert/inside_wood_final_depurado.csv", 
+        df = pd.read_csv("obtener_biomas_Audebert/insidewood_with_biomes_final.csv", 
                         sep=';', 
                         encoding='utf-8')
     except Exception as e:

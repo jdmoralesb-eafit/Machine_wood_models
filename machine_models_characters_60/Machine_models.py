@@ -129,7 +129,7 @@ def train_and_evaluate_classification_models(X_train, X_test, y_train, y_test, l
 def main():
     try:
 
-        df = pd.read_csv("obtener_biomas_Audebert/tropical_con_biomas_final_v2.csv")
+        df = pd.read_csv("obtener_biomas_Audebert/tropical_with_biomes_final_v2_60.csv")
     except Exception as e:
         print(f"Error with the input archive: {e}")
         return

@@ -66,3 +66,18 @@ Feature name references used in training
 
 3. Using Trained Models
 To apply the trained models on new data, use the script use_trained_models.py in the root folder. This script will load the selected model (see inputs in the file) and preprocessing pipeline for inference.
+
+### Installation
+1. Clone this repository:
+   
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+Install Python dependencies (requires Python 3.8 or later):
+
+bash
+pip install -r requirements.txt
+Usage
+Use the script use_trained_models.py in the root folder to make predictions:
+
+bash
+python use_trained_models.py

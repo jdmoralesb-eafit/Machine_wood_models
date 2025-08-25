@@ -42,12 +42,23 @@ except Exception as e:
 # === 3. Load and prepare new input data ===
 print(f"\nReading new data from: {NEW_DATA_FILE}")
 try:
-    # Save a copy of original data for output
-    original_data = pd.read_csv(NEW_DATA_FILE, sep=';', encoding='utf-8')
+    # Detect file extension
+    file_ext = os.path.splitext(NEW_DATA_FILE)[1].lower()
+
+    if file_ext == ".csv":
+        original_data = pd.read_csv(NEW_DATA_FILE, sep=';', encoding='utf-8')
+    elif file_ext in [".xls", ".xlsx"]:
+        original_data = pd.read_excel(NEW_DATA_FILE)
+    else:
+        print(f"Error: Unsupported file format ({file_ext}). Use .csv or .xlsx")
+        exit()
+
     new_data = original_data.copy()
+
 except Exception as e:
     print(f"Error reading input file: {e}")
     exit()
+
 
 # === 4. Filter and align columns ===
 print("\nFiltering columns to match training data...")

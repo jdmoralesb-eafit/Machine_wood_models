@@ -8,8 +8,8 @@ from sklearn.preprocessing import StandardScaler
 # === Configuration ===
 MODEL_NAME = "Random_Forest"  # Change as needed
 BASE_DIR = "machine_models_characteristics_80"
-MODEL_DIR = os.path.join(BASE_DIR, MODEL_NAME)
-PREPROCESS_DIR = os.path.join(BASE_DIR, "preprocessing")
+MODEL_DIR = os.path.join(BASE_DIR,"Machine", MODEL_NAME)
+PREPROCESS_DIR = os.path.join(BASE_DIR,"Machine", "preprocessing")
 NEW_DATA_FILE = "your_new_data.csv"  # Input file
 OUTPUT_FILE = "predictions_output.csv"  # Output file
 
@@ -94,16 +94,26 @@ y_pred_labels = label_encoder.inverse_transform(y_pred_encoded)
 
 # === 7. Prepare output file ===
 print("\nPreparing output file...")
+
 # Add predictions to original dataframe
 original_data['Predicted_Biome'] = y_pred_labels
 
-# Save output file
+# Detect output format based on OUTPUT_FILE extension
+output_ext = os.path.splitext(OUTPUT_FILE)[1].lower()
+
 try:
-    original_data.to_csv(OUTPUT_FILE, sep=';', index=False, encoding='utf-8')
-    print(f"Results successfully saved to: {OUTPUT_FILE}")
-    print(f"Total samples processed: {len(original_data)}")
+    if output_ext == ".csv":
+        original_data.to_csv(OUTPUT_FILE, sep=';', index=False, encoding='utf-8')
+    elif output_ext in [".xls", ".xlsx"]:
+        original_data.to_excel(OUTPUT_FILE, index=False, engine="openpyxl")
+    else:
+        raise ValueError(f"Unsupported output format: {output_ext}. Use .csv or .xlsx")
+
+    print(f"✅ Results successfully saved to: {OUTPUT_FILE}")
+    print(f"📊 Total samples processed: {len(original_data)}")
+
 except Exception as e:
-    print(f"Error saving results: {e}")
+    print(f"❌ Error saving results: {e}")
     exit()
 
 # === 8. Show summary ===

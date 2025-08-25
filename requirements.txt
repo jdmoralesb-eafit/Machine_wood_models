@@ -7,3 +7,4 @@ scipy==1.15.2
 scikit-learn
 stdlib_list
 tqdm==4.67.1
+openpyxl

@@ -71,16 +71,38 @@ To apply the trained models on new data, use the script use_trained_models.py in
 1. Clone this repository:
    
 git clone https://github.com/jdmoralesb-eafit/Machine_wood_models.git
-cd Machine_wood_models
 
-2. Install Python dependencies (requires Python 3.8 or later):
+or
 
-bash
+Download it thought this page ( press the green button and it will appe
+
+2. Enter to the repository (it has to be where you download it):
+   
+4. Install Python dependencies (requires Python 3.8 or later):
+
 pip install -r requirements.txt
 
 
 Usage
 Use the script use_trained_models.py in the root folder to make predictions:
 
-bash
+to use it just add the data you want to use to make predictions to the repository
+
+then eneter the file use_trained_models.py and change the base_dir to the name of the directory of the models you want to use
+
+then write the model you want to use on MODEL_NAME, the ones that can be used are
+
+Gradient_Boosting
+KNN
+Random_Forest
+SVM
+
+finally write the name of the output file and then run the following line in the terminal
+
 python use_trained_models.py
+
+As a consideration you should have a the data as the examples files that can be found on the repository
+
+chatacteristics_file_input.csv and chatacters_file_input.csv
+
+and the following things

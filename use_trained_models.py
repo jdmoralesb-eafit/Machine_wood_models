@@ -6,12 +6,12 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 
 # === Configuration ===
-MODEL_NAME = "Random_Forest"  # Change as needed
-BASE_DIR = "machine_models_characteristics_80"
+MODEL_NAME = "Gradient_Boosting"  # Change as needed
+BASE_DIR = "machine_models_characters_80"
 MODEL_DIR = os.path.join(BASE_DIR,"Machine", MODEL_NAME)
 PREPROCESS_DIR = os.path.join(BASE_DIR,"Machine", "preprocessing")
-NEW_DATA_FILE = "your_new_data.csv"  # Input file
-OUTPUT_FILE = "predictions_output.csv"  # Output file
+NEW_DATA_FILE = "FossilAll.csv"  # Input file
+OUTPUT_FILE = "predictions_output_fossil.csv"  # Output file
 
 # === 1. Load model and preprocessing tools ===
 print("Loading model and preprocessing components...")
@@ -70,13 +70,44 @@ print(f"Using {len(common_columns)} common columns")
 if missing_columns:
     print(f"Warning: {len(missing_columns)} training columns missing in new data")
     print("First 5 missing columns:", missing_columns[:5])
+    
+    # Retry reading input file with comma separator
+    print("Retrying to read input file with separator ','...")
+    try:
+        original_data = pd.read_csv(NEW_DATA_FILE, sep=',', encoding='utf-8')
+        new_data = original_data.copy()
+        
+        # Recalculate common and missing columns
+        common_columns = [col for col in training_columns if col in new_data.columns]
+        missing_columns = [col for col in training_columns if col not in new_data.columns]
+        
+        print(f"After retry - Using {len(common_columns)} common columns")
+        if missing_columns:
+            print(f"Warning: {len(missing_columns)} training columns still missing in new data")
+            print("First 5 missing columns:", missing_columns[:5])
+            
+    except Exception as e:
+        print(f"Error when retrying with separator ',': {e}")
+        exit()
 
-# Filter new data to include only common columns
-new_data = new_data[common_columns]
+# Create DataFrame with missing columns initialized to 0
+missing_df = pd.DataFrame(0, index=new_data.index, columns=missing_columns)
 
-# Add missing columns with value 0
-for col in missing_columns:
-    new_data[col] = 0
+# Join with original data
+new_data = pd.concat([new_data, missing_df], axis=1)
+
+# Reorder columns to match training data
+new_data = new_data[training_columns]
+
+# Crear un DataFrame con las columnas faltantes inicializadas en 0
+missing_df = pd.DataFrame(0, index=new_data.index, columns=missing_columns)
+
+# Unirlo con los datos originales
+new_data = pd.concat([new_data, missing_df], axis=1)
+
+# Reordenar columnas para que coincidan con el entrenamiento
+new_data = new_data[training_columns]
+
 
 # Reorder columns to exactly match training data
 new_data = new_data[training_columns]

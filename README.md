@@ -67,42 +67,63 @@ Feature name references used in training
 3. Using Trained Models
 To apply the trained models on new data, use the script use_trained_models.py in the root folder. This script will load the selected model (see inputs in the file) and preprocessing pipeline for inference.
 
-### Installation
-1. Clone this repository:
-   
+
+# Installation:
+Prerequisites
+Python 3.8 or later
+
+pip (Python package manager)
+
+Setup Instructions
+Get the code:
+
+## Option 1: Clone via Git
 git clone https://github.com/jdmoralesb-eafit/Machine_wood_models.git
 
-or
+## Option 2: Download manually
+- Click the green "Code" button on GitHub
+- Select "Download ZIP"
+- Extract the downloaded file
 
-Download it thought this page ( press the green button and it will appe
 
-2. Enter to the repository (it has to be where you download it):
-   
-4. Install Python dependencies (requires Python 3.8 or later):
+## Navigate to the project and install the dependencies:
+
+Navigate to the project directory: cd Machine_wood_models and then install required dependencies:
 
 pip install -r requirements.txt
+or
+pip3 install -r requirements.txt
 
+# Usage
+Making Predictions
+Use the use_trained_models.py script to generate predictions with pre-trained models:
 
-Usage
-Use the script use_trained_models.py in the root folder to make predictions:
+-  Prepare your input data:
 
-to use it just add the data you want to use to make predictions to the repository
+- Place your data file (CSV or Excel format) in the project root directory, ensure your data follows the same format as one of the example files (chatacteristics_file_input.csv or chatacters_file_input.csv)
 
-then eneter the file use_trained_models.py and change the base_dir to the name of the directory of the models you want to use
+Note: aqui va la explicacion de Camila de como hacer el archivo
 
-then write the model you want to use on MODEL_NAME, the ones that can be used are
+# Configure the script:
+Open use_trained_models.py and modify the following variables to the ones yo:
+
+python
+BASE_DIR = "name_of_model_directory"  # e.g., "machine_models_characters_80"
+MODEL_NAME = "Gradient_Boosting"      # Choose from available models
+NEW_DATA_FILE = "your_input_filename.csv"  # Input file
+OUTPUT_FILE = "your_output_filename.csv"  # Desired output file name
+Available models:
 
 Gradient_Boosting
+
 KNN
+
 Random_Forest
+
 SVM
 
-finally write the name of the output file and then run the following line in the terminal
+Run the prediction script:
 
 python use_trained_models.py
-
-As a consideration you should have a the data as the examples files that can be found on the repository
-
-chatacteristics_file_input.csv and chatacters_file_input.csv
-
-and the following things
+or
+python3 use_trained_models.py

@@ -105,22 +105,22 @@ Use the use_trained_models.py script to generate predictions with pre-trained mo
 Note: aqui va la explicacion de Camila de como hacer el archivo
 
 # Configure the script:
-Open use_trained_models.py and modify the following variables to the ones yo:
+Open use_trained_models.py in a text editor and modify these key variables:
 
 python
-BASE_DIR = "name_of_model_directory"  # e.g., "machine_models_characters_80"
-MODEL_NAME = "Gradient_Boosting"      # Choose from available models
-NEW_DATA_FILE = "your_input_filename.csv"  # Input file
-OUTPUT_FILE = "your_output_filename.csv"  # Desired output file name
-Available models:
+- BASE_DIR = "name_of_model_directory"  # e.g., "machine_models_characters_80"
+- MODEL_NAME = "Gradient_Boosting"      # Choose from available models
+- NEW_DATA_FILE = "your_input_filename.csv"  # Input file
+- OUTPUT_FILE = "your_output_filename.csv"  # Desired output file name
+### Available models:
 
-Gradient_Boosting
+- Gradient_Boosting
 
-KNN
+- KNN
 
-Random_Forest
+- Random_Forest
 
-SVM
+- SVM
 
 Run the prediction script:
 
